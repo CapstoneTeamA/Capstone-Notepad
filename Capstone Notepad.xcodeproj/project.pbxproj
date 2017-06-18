@@ -15,6 +15,8 @@
 		13A342B71EF5FEC1002EBC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A342B51EF5FEC1002EBC92 /* LaunchScreen.storyboard */; };
 		13A342C21EF5FEC1002EBC92 /* Capstone_NotepadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A342C11EF5FEC1002EBC92 /* Capstone_NotepadTests.swift */; };
 		13A342CD1EF5FEC2002EBC92 /* Capstone_NotepadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A342CC1EF5FEC2002EBC92 /* Capstone_NotepadUITests.swift */; };
+		13A342DB1EF604BF002EBC92 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A342DA1EF604BF002EBC92 /* AddNoteViewController.swift */; };
+		13A342DF1EF6324A002EBC92 /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A342DE1EF6324A002EBC92 /* EditNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		13A342C81EF5FEC2002EBC92 /* Capstone NotepadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Capstone NotepadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A342CC1EF5FEC2002EBC92 /* Capstone_NotepadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capstone_NotepadUITests.swift; sourceTree = "<group>"; };
 		13A342CE1EF5FEC2002EBC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A342DA1EF604BF002EBC92 /* AddNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		13A342DE1EF6324A002EBC92 /* EditNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				13A342B51EF5FEC1002EBC92 /* LaunchScreen.storyboard */,
 				13A342B81EF5FEC1002EBC92 /* Info.plist */,
 				13A342B01EF5FEC1002EBC92 /* Capstone_Notepad.xcdatamodeld */,
+				13A342DA1EF604BF002EBC92 /* AddNoteViewController.swift */,
+				13A342DE1EF6324A002EBC92 /* EditNoteViewController.swift */,
 			);
 			path = "Capstone Notepad";
 			sourceTree = "<group>";
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A342DB1EF604BF002EBC92 /* AddNoteViewController.swift in Sources */,
 				13A342AC1EF5FEC1002EBC92 /* ViewController.swift in Sources */,
 				13A342B21EF5FEC1002EBC92 /* Capstone_Notepad.xcdatamodeld in Sources */,
+				13A342DF1EF6324A002EBC92 /* EditNoteViewController.swift in Sources */,
 				13A342AA1EF5FEC1002EBC92 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
