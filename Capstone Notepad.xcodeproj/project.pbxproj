@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13A342AA1EF5FEC1002EBC92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A342A91EF5FEC1002EBC92 /* AppDelegate.swift */; };
+		13A342AC1EF5FEC1002EBC92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A342AB1EF5FEC1002EBC92 /* ViewController.swift */; };
+		13A342AF1EF5FEC1002EBC92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A342AD1EF5FEC1002EBC92 /* Main.storyboard */; };
+		13A342B21EF5FEC1002EBC92 /* Capstone_Notepad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13A342B01EF5FEC1002EBC92 /* Capstone_Notepad.xcdatamodeld */; };
+		13A342B41EF5FEC1002EBC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A342B31EF5FEC1002EBC92 /* Assets.xcassets */; };
+		13A342B71EF5FEC1002EBC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A342B51EF5FEC1002EBC92 /* LaunchScreen.storyboard */; };
+		13A342C21EF5FEC1002EBC92 /* Capstone_NotepadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A342C11EF5FEC1002EBC92 /* Capstone_NotepadTests.swift */; };
+		13A342CD1EF5FEC2002EBC92 /* Capstone_NotepadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A342CC1EF5FEC2002EBC92 /* Capstone_NotepadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13A342BE1EF5FEC1002EBC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13A3429E1EF5FEC1002EBC92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13A342A51EF5FEC1002EBC92;
+			remoteInfo = "Capstone Notepad";
+		};
+		13A342C91EF5FEC2002EBC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13A3429E1EF5FEC1002EBC92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13A342A51EF5FEC1002EBC92;
+			remoteInfo = "Capstone Notepad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13A342A61EF5FEC1002EBC92 /* Capstone Notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capstone Notepad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A342A91EF5FEC1002EBC92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13A342AB1EF5FEC1002EBC92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13A342AE1EF5FEC1002EBC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13A342B11EF5FEC1002EBC92 /* Capstone_Notepad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Capstone_Notepad.xcdatamodel; sourceTree = "<group>"; };
+		13A342B31EF5FEC1002EBC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13A342B61EF5FEC1002EBC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13A342B81EF5FEC1002EBC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A342BD1EF5FEC1002EBC92 /* Capstone NotepadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Capstone NotepadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A342C11EF5FEC1002EBC92 /* Capstone_NotepadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capstone_NotepadTests.swift; sourceTree = "<group>"; };
+		13A342C31EF5FEC2002EBC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A342C81EF5FEC2002EBC92 /* Capstone NotepadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Capstone NotepadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A342CC1EF5FEC2002EBC92 /* Capstone_NotepadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capstone_NotepadUITests.swift; sourceTree = "<group>"; };
+		13A342CE1EF5FEC2002EBC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13A342A31EF5FEC1002EBC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A342BA1EF5FEC1002EBC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A342C51EF5FEC2002EBC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A3429D1EF5FEC1002EBC92 = {
+			isa = PBXGroup;
+			children = (
+				13A342A81EF5FEC1002EBC92 /* Capstone Notepad */,
+				13A342C01EF5FEC1002EBC92 /* Capstone NotepadTests */,
+				13A342CB1EF5FEC2002EBC92 /* Capstone NotepadUITests */,
+				13A342A71EF5FEC1002EBC92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13A342A71EF5FEC1002EBC92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13A342A61EF5FEC1002EBC92 /* Capstone Notepad.app */,
+				13A342BD1EF5FEC1002EBC92 /* Capstone NotepadTests.xctest */,
+				13A342C81EF5FEC2002EBC92 /* Capstone NotepadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13A342A81EF5FEC1002EBC92 /* Capstone Notepad */ = {
+			isa = PBXGroup;
+			children = (
+				13A342A91EF5FEC1002EBC92 /* AppDelegate.swift */,
+				13A342AB1EF5FEC1002EBC92 /* ViewController.swift */,
+				13A342AD1EF5FEC1002EBC92 /* Main.storyboard */,
+				13A342B31EF5FEC1002EBC92 /* Assets.xcassets */,
+				13A342B51EF5FEC1002EBC92 /* LaunchScreen.storyboard */,
+				13A342B81EF5FEC1002EBC92 /* Info.plist */,
+				13A342B01EF5FEC1002EBC92 /* Capstone_Notepad.xcdatamodeld */,
+			);
+			path = "Capstone Notepad";
+			sourceTree = "<group>";
+		};
+		13A342C01EF5FEC1002EBC92 /* Capstone NotepadTests */ = {
+			isa = PBXGroup;
+			children = (
+				13A342C11EF5FEC1002EBC92 /* Capstone_NotepadTests.swift */,
+				13A342C31EF5FEC2002EBC92 /* Info.plist */,
+			);
+			path = "Capstone NotepadTests";
+			sourceTree = "<group>";
+		};
+		13A342CB1EF5FEC2002EBC92 /* Capstone NotepadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13A342CC1EF5FEC2002EBC92 /* Capstone_NotepadUITests.swift */,
+				13A342CE1EF5FEC2002EBC92 /* Info.plist */,
+			);
+			path = "Capstone NotepadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13A342A51EF5FEC1002EBC92 /* Capstone Notepad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A342D11EF5FEC2002EBC92 /* Build configuration list for PBXNativeTarget "Capstone Notepad" */;
+			buildPhases = (
+				13A342A21EF5FEC1002EBC92 /* Sources */,
+				13A342A31EF5FEC1002EBC92 /* Frameworks */,
+				13A342A41EF5FEC1002EBC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Capstone Notepad";
+			productName = "Capstone Notepad";
+			productReference = 13A342A61EF5FEC1002EBC92 /* Capstone Notepad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13A342BC1EF5FEC1002EBC92 /* Capstone NotepadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A342D41EF5FEC2002EBC92 /* Build configuration list for PBXNativeTarget "Capstone NotepadTests" */;
+			buildPhases = (
+				13A342B91EF5FEC1002EBC92 /* Sources */,
+				13A342BA1EF5FEC1002EBC92 /* Frameworks */,
+				13A342BB1EF5FEC1002EBC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13A342BF1EF5FEC1002EBC92 /* PBXTargetDependency */,
+			);
+			name = "Capstone NotepadTests";
+			productName = "Capstone NotepadTests";
+			productReference = 13A342BD1EF5FEC1002EBC92 /* Capstone NotepadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13A342C71EF5FEC2002EBC92 /* Capstone NotepadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A342D71EF5FEC2002EBC92 /* Build configuration list for PBXNativeTarget "Capstone NotepadUITests" */;
+			buildPhases = (
+				13A342C41EF5FEC2002EBC92 /* Sources */,
+				13A342C51EF5FEC2002EBC92 /* Frameworks */,
+				13A342C61EF5FEC2002EBC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13A342CA1EF5FEC2002EBC92 /* PBXTargetDependency */,
+			);
+			name = "Capstone NotepadUITests";
+			productName = "Capstone NotepadUITests";
+			productReference = 13A342C81EF5FEC2002EBC92 /* Capstone NotepadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13A3429E1EF5FEC1002EBC92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = PSU2;
+				TargetAttributes = {
+					13A342A51EF5FEC1002EBC92 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					13A342BC1EF5FEC1002EBC92 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13A342A51EF5FEC1002EBC92;
+					};
+					13A342C71EF5FEC2002EBC92 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13A342A51EF5FEC1002EBC92;
+					};
+				};
+			};
+			buildConfigurationList = 13A342A11EF5FEC1002EBC92 /* Build configuration list for PBXProject "Capstone Notepad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13A3429D1EF5FEC1002EBC92;
+			productRefGroup = 13A342A71EF5FEC1002EBC92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A342A51EF5FEC1002EBC92 /* Capstone Notepad */,
+				13A342BC1EF5FEC1002EBC92 /* Capstone NotepadTests */,
+				13A342C71EF5FEC2002EBC92 /* Capstone NotepadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13A342A41EF5FEC1002EBC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A342B71EF5FEC1002EBC92 /* LaunchScreen.storyboard in Resources */,
+				13A342B41EF5FEC1002EBC92 /* Assets.xcassets in Resources */,
+				13A342AF1EF5FEC1002EBC92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A342BB1EF5FEC1002EBC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A342C61EF5FEC2002EBC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13A342A21EF5FEC1002EBC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A342AC1EF5FEC1002EBC92 /* ViewController.swift in Sources */,
+				13A342B21EF5FEC1002EBC92 /* Capstone_Notepad.xcdatamodeld in Sources */,
+				13A342AA1EF5FEC1002EBC92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A342B91EF5FEC1002EBC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A342C21EF5FEC1002EBC92 /* Capstone_NotepadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A342C41EF5FEC2002EBC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A342CD1EF5FEC2002EBC92 /* Capstone_NotepadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13A342BF1EF5FEC1002EBC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13A342A51EF5FEC1002EBC92 /* Capstone Notepad */;
+			targetProxy = 13A342BE1EF5FEC1002EBC92 /* PBXContainerItemProxy */;
+		};
+		13A342CA1EF5FEC2002EBC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13A342A51EF5FEC1002EBC92 /* Capstone Notepad */;
+			targetProxy = 13A342C91EF5FEC2002EBC92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13A342AD1EF5FEC1002EBC92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A342AE1EF5FEC1002EBC92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13A342B51EF5FEC1002EBC92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A342B61EF5FEC1002EBC92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13A342CF1EF5FEC2002EBC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13A342D01EF5FEC2002EBC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13A342D21EF5FEC2002EBC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Capstone Notepad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.capstone-team-a.Capstone-Notepad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		13A342D31EF5FEC2002EBC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Capstone Notepad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.capstone-team-a.Capstone-Notepad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		13A342D51EF5FEC2002EBC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Capstone NotepadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.capstone-team-a.Capstone-NotepadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capstone Notepad.app/Capstone Notepad";
+			};
+			name = Debug;
+		};
+		13A342D61EF5FEC2002EBC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Capstone NotepadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.capstone-team-a.Capstone-NotepadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capstone Notepad.app/Capstone Notepad";
+			};
+			name = Release;
+		};
+		13A342D81EF5FEC2002EBC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Capstone NotepadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.capstone-team-a.Capstone-NotepadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Capstone Notepad";
+			};
+			name = Debug;
+		};
+		13A342D91EF5FEC2002EBC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Capstone NotepadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.capstone-team-a.Capstone-NotepadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Capstone Notepad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A342A11EF5FEC1002EBC92 /* Build configuration list for PBXProject "Capstone Notepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A342CF1EF5FEC2002EBC92 /* Debug */,
+				13A342D01EF5FEC2002EBC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A342D11EF5FEC2002EBC92 /* Build configuration list for PBXNativeTarget "Capstone Notepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A342D21EF5FEC2002EBC92 /* Debug */,
+				13A342D31EF5FEC2002EBC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13A342D41EF5FEC2002EBC92 /* Build configuration list for PBXNativeTarget "Capstone NotepadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A342D51EF5FEC2002EBC92 /* Debug */,
+				13A342D61EF5FEC2002EBC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13A342D71EF5FEC2002EBC92 /* Build configuration list for PBXNativeTarget "Capstone NotepadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A342D81EF5FEC2002EBC92 /* Debug */,
+				13A342D91EF5FEC2002EBC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13A342B01EF5FEC1002EBC92 /* Capstone_Notepad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13A342B11EF5FEC1002EBC92 /* Capstone_Notepad.xcdatamodel */,
+			);
+			currentVersion = 13A342B11EF5FEC1002EBC92 /* Capstone_Notepad.xcdatamodel */;
+			path = Capstone_Notepad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13A3429E1EF5FEC1002EBC92 /* Project object */;
+}
