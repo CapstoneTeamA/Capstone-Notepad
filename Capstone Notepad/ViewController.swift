@@ -11,17 +11,19 @@ import CoreData
 
 class ViewController: UIViewController {
     @IBOutlet weak var noteTableView: UITableView!
-    var notes : [NSManagedObject] = []
+    var notes : [Note] = []
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         noteTableView.reloadData()
         self.navigationItem.hidesBackButton = true;
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        //1
+   
         guard let appDelegate =
             UIApplication.shared.delegate as? AppDelegate else {
                 return
@@ -30,16 +32,16 @@ class ViewController: UIViewController {
         let managedContext =
             appDelegate.persistentContainer.viewContext
         
-        //2
         let fetchRequest =
-            NSFetchRequest<NSManagedObject>(entityName: "Note")
+            NSFetchRequest<Note>(entityName: "Note")
         
-        //3
         do {
             notes = try managedContext.fetch(fetchRequest)
         } catch let error as NSError {
             print("Could not fetch. \(error), \(error.userInfo)")
         }
+        notes.sort(by: {(lhs:Note, rhs:Note) -> Bool in return lhs.timestamp?.compare(rhs.timestamp! as Date) == ComparisonResult.orderedDescending})
+        noteTableView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -64,6 +66,7 @@ extension ViewController : UITableViewDataSource, UITableViewDelegate {
         if notes.count == 0
         {
             cell.textLabel?.text = "No note exist"
+            cell.selectionStyle = UITableViewCellSelectionStyle.none
             return cell
         }
        
@@ -81,17 +84,11 @@ extension ViewController : UITableViewDataSource, UITableViewDelegate {
         }
         
         let note = notes[indexPath.row]
-//        let alert = UIAlertController(title: tableView.cellForRow(at: indexPath)?.textLabel?.text, message: note.value(forKey: "body") as? String, preferredStyle: .alert)
-//        let cancelAction = UIAlertAction(title: "Cancel",
-//                                         style: .default)
-//        
-//        alert.addAction(cancelAction)
-//        present(alert, animated: true)
+
         tableView.deselectRow(at: indexPath, animated: true)
         let editView = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "EditNoteView") as! EditNoteViewController
-        editView.note = note as? Note
+        editView.note = note
         
-//        self.navigationController?.pushViewController(editView, animated: false)
         self.navigationController?.show(editView, sender: nil)
     }
 }

@@ -125,7 +125,6 @@
                                 </state>
                                 <connections>
                                     <action selector="saveNote:" destination="Qmi-Hx-dph" eventType="touchUpInside" id="SwZ-qR-m3x"/>
-                                    <segue destination="eja-F2-4s5" kind="show" id="1Wp-1l-yQm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jb0-Vq-p4p">
@@ -137,7 +136,6 @@
                                 </state>
                                 <connections>
                                     <action selector="deleteNote:" destination="Qmi-Hx-dph" eventType="touchUpInside" id="E7R-nc-hkG"/>
-                                    <segue destination="eja-F2-4s5" kind="show" id="Obx-IN-Yzf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -181,7 +179,6 @@
                                 </state>
                                 <connections>
                                     <action selector="didSaveNote:" destination="EDH-bf-2fq" eventType="touchUpInside" id="341-ng-OD6"/>
-                                    <segue destination="eja-F2-4s5" kind="show" id="8J1-5y-6dC"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wCz-Sy-sHY">
@@ -218,7 +215,4 @@
             <point key="canvasLocation" x="2244" y="138.98050974512745"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="8J1-5y-6dC"/>
-    </inferredMetricsTieBreakers>
 </document>

@@ -25,13 +25,17 @@ class AddNoteViewController: UIViewController {
     
 
     @IBAction func didSaveNote(_ sender: Any) {
-        guard noteTitle.text != nil else {
+        if noteTitle.text == "" {
+            let alert = UIAlertController(title: "Error", message: "Notes must have a title to save.", preferredStyle: .alert)
+            let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+            alert.addAction(cancelAction)
+            present(alert,animated: true)
             return
         }
-        save(title: noteTitle.text!, body: noteBody.text)
+        save()
     }
     
-    func save(title: String, body: String) {
+    func save() {
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
             return
         }
@@ -49,8 +53,6 @@ class AddNoteViewController: UIViewController {
         } catch let error as NSError {
             print("Could not save. \(error), \(error.userInfo)")
         }
-
-//        let noteViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NotesView") as! ViewController
-//        self.navigationController?.pushViewController(noteViewController, animated: true)
+        self.navigationController?.popToRootViewController(animated: true)
     }
 }

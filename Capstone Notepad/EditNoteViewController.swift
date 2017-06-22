@@ -28,9 +28,21 @@ class EditNoteViewController: UIViewController {
     
     @IBAction func deleteNote(_ sender: Any) {
         delete()
+        returnToRoot()
     }
     @IBAction func saveNote(_ sender: Any) {
+        if titleField.text == "" {
+            let alert = UIAlertController(title: "Error", message: "Notes must have a title to save.", preferredStyle: .alert)
+            let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+            alert.addAction(cancelAction)
+            present(alert,animated: true)
+            return
+        }
+        note?.title = titleField.text
+        note?.body = bodyField.text
+        
         save()
+        returnToRoot()
     }
     
     func save() {
@@ -39,10 +51,6 @@ class EditNoteViewController: UIViewController {
         }
         
         let managedContext = appDelegate.persistentContainer.viewContext
-        
-        note?.title = titleField.text
-        note?.body = bodyField.text
-        
         do {
             try managedContext.save()
             
@@ -59,5 +67,10 @@ class EditNoteViewController: UIViewController {
         let managedContext = appDelegate.persistentContainer.viewContext
         
         managedContext.delete(note!)
+        save()
+    }
+    
+    func returnToRoot() {
+        self.navigationController?.popToRootViewController(animated: true)
     }
 }
